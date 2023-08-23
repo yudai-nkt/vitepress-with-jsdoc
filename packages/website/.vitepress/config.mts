@@ -4,8 +4,7 @@ import typedocSidebar from "../api-reference/typedoc-sidebar.json";
 // https://vitepress.dev/reference/site-config
 export default {
   title: "VitePress with JSDoc",
-  description:
-    "Sample project exploiting integration between VitePress and JSDoc",
+  description: "Sample monorepo exploiting integration of VitePress and JSDoc",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
