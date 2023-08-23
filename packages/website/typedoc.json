@@ -2,5 +2,6 @@
   "$schema": "https://typedoc.org/schema.json",
   "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
   "out": "api-reference",
-  "docsRoot": "./"
+  "docsRoot": "./",
+  "readme": "../demo-package/index.md"
 }
