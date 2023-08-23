@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "typedoc": "^0.24.8",
+    "typedoc-vitepress-theme": "^1.0.0-next.2",
+    "vitepress": "^1.0.0-rc.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docgen:api-md": "typedoc ../demo-package/src/index.ts",
+    "build": "npm run docgen:api-md && vitepress build",
+    "start": "npm run docgen:api-md && vitepress dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
