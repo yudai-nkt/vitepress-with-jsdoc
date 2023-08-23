@@ -1,8 +1,4 @@
 /**
- * @file fooo
- */
-
-/**
  * This class represents a person.
  */
 export class Person {
