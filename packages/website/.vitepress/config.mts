@@ -24,7 +24,10 @@ export default {
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "github",
+        link: "https://github.com/yudai-nkt/vitepress-with-jsdoc",
+      },
     ],
   },
 } satisfies UserConfig;
